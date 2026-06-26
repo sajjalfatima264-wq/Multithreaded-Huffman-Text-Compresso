@@ -1,0 +1,2 @@
+tr ';' '\n' < char_frequency.txt | sort -t',' -k2,2nr | paste -sd';' - > char_sorted.txt
+
